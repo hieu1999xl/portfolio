@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300:italic" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="name">
+          <a href="#" class="green-hover">{H.T}</a>
+        </div>
+
+        <a href="#" class="toggle-button green-hover">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+
+        <div class="links-div">
+          <ul class="links">
+            <a href="#about">
+              <li class="green-hover">Về Tôi</li>
+            </a>
+            <a href="#projects">
+              <li class="green-hover">Dự Án</li>
+            </a>
+            <a href="#contact">
+              <li class="green-hover">Liên Hệ</li>
+            </a>
+            <a href="#" target="_blank">
+              <li class="green-hover"><button class="resume green-text">Resume</button></li>
+            </a>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="information">
+        <p class="green-text">Xin chào mọi người,</p>
+        <div class="name-surname">
+          <h1>Vũ Hoàng Thắng</h1>
+        </div>
+        <h2>
+          Sinh viên CNTT tại
+          <a href="https://hnmu.edu.vn/" class="green-text green-decoration" target="_blank">Đại học Thủ đô Hà Nội</a>.
+        </h2>
+        <h2>Lớp <span class="green-text"> CNTT D2017</span>.</h2>
+      </div>
+
+      <div class="contact-info">
+        <a href="mailto: tkangstar99@gmail.com"
+          ><button class="reach-button green-text button-hover">Liên hệ</button></a
+        >
+
+        <div class="social-links">
+          <ul>
+            <a href="#" target="_blank">
+              <li><img class="social-link" src="images/github-white.svg" alt="" /></li>
+            </a>
+            <a href="#" target="_blank">
+              <li><img class="social-link" src="images/linkedin.svg" alt="" /></li>
+            </a>
+            <a href="#" target="_blank">
+              <li><img class="social-link" src="images/kaggle-icon.svg" alt="" /></li>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <div class="introduction">
+          <h1 class="header green-text">Giới Thiệu</h1>
+          <p>Tôi là sinh viên CNTT tại đại học Thủ đô Hà Nội.</p>
+          <br />
+
+          <p>Tôi quan tâm đến công việc lập trình giao diện web.</p>
+          <p>Thiết kế những trang web đẹp là đam mê của tôi.</p>
+
+          <div class="lang-div">
+            <p>Dưới đây là một số công nghệ tôi xử dụng</p>
+            <ul>
+              <li>HTML + CSS</li>
+              <li>Javascript</li>
+              <li>NodeJS</li>
+              <li>MongoDB</li>
+              <li>ReactJS</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="img">
+          <img src="images/portfolio.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="carousel">
+      <div class="carousel__control"></div>
+      <div class="carousel__stage">
+        <div class="spinner spinner--left">
+          <div class="spinner__face js-active" data-bg="#27323c">
+            <div class="content" data-type="iceland">
+              <div class="content__left">
+                <h1>Quản lý bán hàng<br /><span>POSS</span></h1>
+              </div>
+              <div class="content__right">
+                <div class="content__main">
+                  <p>
+                    “Trong thời đại bùng nổ công nghệ 4.0 như hiện nay, một hệ thống giúp quản lý việc bán hàng là không
+                    thể thiếu trong hoạt động kinh doanh của doanh nghiệp. Hệ thống quản lý chính là những phần mềm quản
+                    lý bán hàng, giúp cho người dùng đặc biệt là các doanh nghiệp kiểm soát quản lý được hàng hóa một
+                    cách chặt chẽ hơn. Việc quản lý của hệ thống sẽ được kiểm soát trong tất cả các khâu: Nhập hàng,
+                    quản lý đơn hàng, quản lý kho hàng, quản lý nhân viên, chăm sóc khách hàng,….”
+                  </p>
+                  <p>– Hệ thống poss</p>
+                </div>
+                <h3 class="content__index">01</h3>
+              </div>
+            </div>
+          </div>
+          <div class="spinner__face" data-bg="#19304a">
+            <div class="content" data-type="china">
+              <div class="content__left">
+                <h1>Quản lý chung cư<br /><span>MYHOME</span></h1>
+              </div>
+              <div class="content__right">
+                <div class="content__main">
+                  <p>
+                    “Chung cư là nơi sinh sống của hàng trăm hộ dân. Vì thế quản lý chung cư là việc quản lý mọi hoạt
+                    động liên quan tới tòa nhà chung cư từ các công trình xây dựng cho tới các hệ thống kỹ thuật ảnh
+                    hưởng tới sinh hoạt đời sống của cư dân tại đó. Việc quản lý nhằm đảm bảo mọi hoạt động diễn ra
+                    thuận lợi, chẳng hạn điện nước, mạng internet, hệ thống thang máy, camera giám sát hay dịch vụ vệ
+                    sinh… phải được cung cấp đầy đủ..”
+                  </p>
+                  <p>– MYHOME</p>
+                </div>
+                <h3 class="content__index">02</h3>
+              </div>
+            </div>
+          </div>
+          <div class="spinner__face" data-bg="#2b2533">
+            <div class="content" data-type="usa">
+              <div class="content__left">
+                <h1>Quản lý mật khẩu<br /><span>MYACC</span></h1>
+              </div>
+              <div class="content__right">
+                <div class="content__main">
+                  <p>
+                    “Ứng dụng quản lý mật khẩu giúp người dùng dễ dàng tạo các mật khẩu an toàn có độ bảo mật cao cho
+                    tất cả các tài khoản online, quản lý và lưu trữ chúng một cách có hệ thống và thậm chí còn thông báo
+                    cho bạn biết nếu mật khẩu bị rò rỉ..”
+                  </p>
+                  <p>– MYACC</p>
+                </div>
+                <h3 class="content__index">03</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="form">
+      <div class="contact-info-form">
+        <h3 class="title">Form liên hệ</h3>
+        <p class="text">liên hệ về những dự án sắp tới của tôi qua thông tin sau:</p>
+
+        <div class="info">
+          <div class="information-form">
+            <i class="fa fa-map" class="icon" aria-hidden="true"></i>
+
+            <p>98 Dương Quảng Hàm, Cầu Giấy, Hà Nội</p>
+          </div>
+          <div class="information-form">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p>tkangstar99@gmail.com</p>
+          </div>
+          <div class="information-form">
+            <i class="fa fa-phone-square" aria-hidden="true"></i>
+            <p>0965105459</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Liên hệ với tôi :</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="index.html" autocomplete="off">
+          <h3 class="title">Contact us</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="">Username</label>
+            <span>Username</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="">Số điện thoại</label>
+            <span>Số điện thoại</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input"></textarea>
+            <label for="">Tin nhắn</label>
+            <span>Tin nhắn</span>
+          </div>
+          <input type="submit" value="Gửi" class="btn" />
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="designed">
+        <p>Thiết kế bởi Vũ Hoàng Thắng</p>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
